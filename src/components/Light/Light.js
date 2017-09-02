@@ -37,7 +37,7 @@ class Light extends Component {
     // jsx
     return (
       <div className="Light">
-        <svg onClick={toggleLight} width="48px" height="89px" viewBox="0 0 48 89" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <svg onClick={toggleLight} width="48px" viewBox="0 0 48 75" version="1.1" xmlns="http://www.w3.org/2000/svg">
           <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g id="noun_1190160_cc" fill="#E0E0E0">
               <g id="Group" transform="translate(0.000000, 0.637820)">
@@ -48,9 +48,8 @@ class Light extends Component {
         </svg>
         
         {isOn
-          ? <div className="tri"><div></div></div>
+          ? <div className="tri"></div>
           : false}
-        
       </div>
     );
   }

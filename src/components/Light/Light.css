@@ -7,17 +7,14 @@
 
 .Light svg {
   cursor: pointer;
+  margin-top: -1px;
 }
 
 .Light .tri {
-  position: absolute;
   top: 70px;
-  z-index: -1;
-  border-top: 350px solid rgba(0,0,0,0);
-  border-left: 50vw solid rgba(0,0,0,0);
-  border-bottom: 100vh solid #F2C94C;
-  border-right: 50vw solid rgba(0,0,0,0);
-  display: block;
-  width: 0px;
-  margin: -350px auto 10% auto;
+  border-left: 50vw solid transparent;
+  border-bottom: calc(100vh - 75px) solid #F2C94C;
+  border-right: 50vw solid transparent;
+  opacity: 1rem;
+  
 }
