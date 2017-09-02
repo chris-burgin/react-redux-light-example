@@ -31,7 +31,9 @@ class Light extends Component {
   
   render() {
     // extract props
-    const {isOn, color} = this.props
+    const {isOn} = this.props
+
+    // extract toggle
     const {toggleLight} = this
 
     // jsx
@@ -57,8 +59,7 @@ class Light extends Component {
 
 // link react and redux
 const mapStateToProps = state => ({
-  isOn: state.light.isOn,
-  color: state.light.color
+  isOn: state.light.isOn
 })
 
 const mapDispatchToProps = dispatch => ({
