@@ -1,2 +1,23 @@
 .Light {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Light svg {
+  cursor: pointer;
+}
+
+.Light .tri {
+  position: absolute;
+  top: 70px;
+  z-index: -1;
+  border-top: 350px solid rgba(0,0,0,0);
+  border-left: 50vw solid rgba(0,0,0,0);
+  border-bottom: 100vh solid #F2C94C;
+  border-right: 50vw solid rgba(0,0,0,0);
+  display: block;
+  width: 0px;
+  margin: -350px auto 10% auto;
 }

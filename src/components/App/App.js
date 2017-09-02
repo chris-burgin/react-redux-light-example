@@ -16,8 +16,7 @@ class App extends Component {
   render() {
     return (
       <main>
-      <Light />
-      <LightControls />
+        <Light />
       </main>
     )
   }
