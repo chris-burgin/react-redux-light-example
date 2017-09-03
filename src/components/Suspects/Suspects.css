@@ -1,0 +1,14 @@
+.RandomItem {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.RandomItem i {
+  color: #1B1B1B;
+  font-size: 80px;  
+  margin: 0 10px;
+}

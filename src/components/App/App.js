@@ -6,6 +6,7 @@ import './App.css'
 
 // components
 import Light from "../Light/Light"
+import Suspects from "../Suspects/Suspects"
 
 // App
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
     return (
       <main>
         <Light />
+        <Suspects />
       </main>
     )
   }

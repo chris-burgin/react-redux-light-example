@@ -3,4 +3,9 @@ const lightSetStatus = bool => ({
   isOn: bool,
 })
 
-export { lightSetStatus }
+const lightSetSuspectCount = count => ({
+  type: "LIGHT_SET_SUSPECT_COUNT",
+  count: count
+})
+
+export { lightSetStatus, lightSetSuspectCount }
